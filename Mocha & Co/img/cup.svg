@@ -1,0 +1,26 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- saucer -->
+  <ellipse cx="150" cy="240" rx="90" ry="16" fill="#3d2010" opacity=".18"/>
+  <!-- cup body -->
+  <path d="M80 160 Q80 240 150 240 Q220 240 220 160 L210 110 L90 110 Z" fill="#3d2010" opacity=".85"/>
+  <!-- cup rim -->
+  <ellipse cx="150" cy="110" rx="60" ry="12" fill="#5a3018"/>
+  <!-- coffee surface -->
+  <ellipse cx="150" cy="115" rx="54" ry="9" fill="#c47c2b" opacity=".9"/>
+  <!-- foam -->
+  <ellipse cx="150" cy="113" rx="46" ry="6" fill="#d4a97a" opacity=".6"/>
+  <!-- latte art heart -->
+  <path d="M135 112 Q138 108 142 112 Q146 108 149 112 Q146 118 142 121 Q138 118 135 112Z" fill="#f5f0e8" opacity=".5"/>
+  <!-- handle -->
+  <path d="M220 135 Q250 135 250 158 Q250 180 220 180" stroke="#5a3018" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- steam -->
+  <path d="M125 95 Q120 80 125 65 Q130 50 125 35" stroke="#c47c2b" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35">
+    <animate attributeName="opacity" values=".35;.1;.35" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M150 88 Q145 73 150 58 Q155 43 150 28" stroke="#c47c2b" stroke-width="3" fill="none" stroke-linecap="round" opacity=".25">
+    <animate attributeName="opacity" values=".25;.07;.25" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M175 95 Q170 80 175 65 Q180 50 175 35" stroke="#c47c2b" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35">
+    <animate attributeName="opacity" values=".35;.1;.35" dur="2.5s" begin="1.6s" repeatCount="indefinite"/>
+  </path>
+</svg>
